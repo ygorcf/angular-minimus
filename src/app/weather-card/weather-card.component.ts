@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherCardComponent implements OnInit {
 
+  condition = ''
+  darkMode = false
+  currentTemp = 0
+  minTemp = 0
+  maxTemp = 0
+
   constructor() { }
 
   ngOnInit(): void {
